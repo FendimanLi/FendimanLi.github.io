@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.9.0">
+<meta charset="utf-8">
+<title>js中的this指向问题 - Hexo</title>
+<base href="/">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<link rel="canonical" href="http://Li_junhui.github.io.git/2018/10/12/js中的this指向问题/">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<meta name="description" content="首先，必须搞清楚在JS里面，函数的几种调用方式:   普通函数调用 作为方法来调用 作为构造函数来调用 使用apply、call方法来调用 function.prototype.bind方法 es6箭头函数    但是不管哪种方法调用，请记住一点：谁调用这个函数和方法this就指向谁。 接下来就分情况来讨论这些不同的情况： 普通函数调用1234567function person()&amp;#123">
+<meta property="og:type" content="website">
+<meta property="og:title" content="js中的this指向问题">
+<meta property="og:url" content="http://Li_junhui.github.io.git/2018/10/12/js中的this指向问题/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="首先，必须搞清楚在JS里面，函数的几种调用方式:   普通函数调用 作为方法来调用 作为构造函数来调用 使用apply、call方法来调用 function.prototype.bind方法 es6箭头函数    但是不管哪种方法调用，请记住一点：谁调用这个函数和方法this就指向谁。 接下来就分情况来讨论这些不同的情况： 普通函数调用1234567function person()&amp;#123">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https://avatars0.githubusercontent.com/u/49192011?s=460&v=4">
+<meta property="og:updated_time" content="2019-08-31T10:25:57.371Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="js中的this指向问题">
+<meta name="twitter:description" content="首先，必须搞清楚在JS里面，函数的几种调用方式:   普通函数调用 作为方法来调用 作为构造函数来调用 使用apply、call方法来调用 function.prototype.bind方法 es6箭头函数    但是不管哪种方法调用，请记住一点：谁调用这个函数和方法this就指向谁。 接下来就分情况来讨论这些不同的情况： 普通函数调用1234567function person()&amp;#123">
+<meta name="twitter:image" content="https://avatars0.githubusercontent.com/u/49192011?s=460&v=4">
+<link href="//fonts.googleapis.com/css?family=Baloo+Bhaijaan|Inconsolata|Josefin+Sans|Montserrat" rel="stylesheet">
+<link href="//imsun.github.io/gitment/style/default.css" rel="stylesheet">
+<link href="/styles.d1f4718a192abf1f2afd.css" rel="stylesheet">
+<link rel="stylesheet" href="/theme.b120c77f269f29eccd88.css">
+<script src="/config.ca8b24214187fb61486d.js"></script>
+<script async src="//www.googletagmanager.com/gtag/js?id=UA-00000000-0"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)};gtag('js',new Date());gtag('config','UA-00000000-0');</script></head>
+<body lang="zh-Hans">
+<is-a></is-a>
+<script src="//imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script src="/runtime.caef73fae70e33459c5a.js"></script>
+<script src="/polyfills.28555e618578fe61f50a.js"></script>
+<script src="/main.7773219322474154c9eb.zh-Hans.js"></script>
+</body>
+</html>
